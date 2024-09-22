@@ -15,20 +15,20 @@ class ToDoApp:
             print("4. Display Tasks")
             print("5. Exit")
             
-            choice = input("Choose an option: ")
+            choice = int(input("Choose an option: "))
             
-            if choice == "1":
+            if choice == 1:
                 task_name = input("Enter the task: ")
                 self.manager.add_task(task_name)
-            elif choice == "2":
+            elif choice == 2:
                 task_name = input("Enter the task to remove: ")
                 self.manager.remove_task(task_name)
-            elif choice == "3":
+            elif choice == 3:
                 task_name = input("Enter the task to mark as complete: ")
                 self.manager.mark_task_complete(task_name)
-            elif choice == "4":
+            elif choice == 4:
                 self.manager.display_tasks()
-            elif choice == "5":
+            elif choice == 5:
                 print("Goodbye!")
                 break
             else:

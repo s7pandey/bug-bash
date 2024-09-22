@@ -7,4 +7,8 @@ This is a repo that contains a todo app. There are various bugs in this app but 
 3. Display tasks.
 4. Mark tasks as complete.
 
-There are no tests, your goal is to make the application support the features above.
+There are no tests, your goal is to make the application support the features above and remove inefficencies in the code.
+
+## Run
+
+`python todoapp.py`
